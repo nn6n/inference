@@ -1,1 +1,2 @@
 rf-clip==1.1
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
