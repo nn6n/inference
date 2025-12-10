@@ -21,3 +21,4 @@ jinja2
 # between the libraries.
 mistune==2.0.4
 nbconvert==7.7.4
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
