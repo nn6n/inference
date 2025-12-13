@@ -11,3 +11,4 @@ httpx>=0.25.1,<0.28.0
 uvicorn<=0.22.0
 aioresponses>=0.7.6
 supervision>=0.25.1,<=0.30.0
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
