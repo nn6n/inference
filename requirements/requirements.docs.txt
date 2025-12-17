@@ -21,3 +21,5 @@ jinja2
 # between the libraries.
 mistune==2.0.4
 nbconvert==7.7.4
+pymdown-extensions>=10.16.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
