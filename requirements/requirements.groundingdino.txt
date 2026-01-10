@@ -1,2 +1,4 @@
 transformers>=4.36.0,<=4.42.2
 rf_groundingdino==0.2.0
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
